@@ -1,20 +1,33 @@
-.dados-pessoais{
-display: flex;
-flex-direction: column;
-border: solid 1px #000;
-width: 1000px;
-border-radius: 10px;
-margin: auto;
-padding: 20px;
-gap: 5px;
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #efefef;
+
 }
-.documentos{
-display: flex;
-flex-direction: column;
-border:solid 1px #000;
-width:1000px;
-border-radius: 10px;
-margin: auto;
-padding: 20px;
-gap: 5px;
+.topo{
+    display: flex;
+    width: 1000px;
+    background-color: #483D8B;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 40px;
+    padding: 25px;
+    color: #fff;
+}
+
+.topo img {
+    width: 70px;
+    border-radius:50px ;
+    background-color:#6959CD ;
+}
+
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex:1;
+}
+
+.cadastro-topo{
+    flex: 4;
 }

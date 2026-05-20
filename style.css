@@ -17,7 +17,7 @@ body{
 
 .topo img {
     width: 70px;
-    border-radius:50px ;
+    border-radius:30px ;
     background-color:#6959CD ;
 }
 
@@ -30,4 +30,8 @@ body{
 
 .cadastro-topo{
     flex: 4;
+}
+
+.cadastro-topo p{
+    padding-right:180px ;
 }

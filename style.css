@@ -62,3 +62,27 @@ body{
 .imagem-documentos img{
     width: 70px;
 }
+
+.dados-pessoais{
+    display: flex;
+    width: 950px;
+    margin: auto;
+    padding: 25px;
+    background-color:#fff ;
+    border-radius:10px;
+    margin-top: 30px;
+}
+.informacao-funcionario{
+    display: flex;
+    justify-content: space-between;
+    width: 850px;
+}
+
+.informacao-funcionario p{
+    background-color: #ccc;
+    border-radius: 4px;
+    line-height: 2;
+    padding: 2px 8px 2px 8px;
+    font-size: 12px;
+   
+}

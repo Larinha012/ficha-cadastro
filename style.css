@@ -16,7 +16,7 @@ body{
 }
 
 .topo img {
-    width: 70px;
+    width: 80px;
     border-radius:30px ;
     background-color:#6959CD ;
 }
@@ -47,11 +47,18 @@ body{
 }
 
 .imagem-documentos{
-    flex: 1;
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .dados-left{
     flex: 2;
 }
 .dados-right{
     flex: 2;
+}
+
+.imagem-documentos img{
+    width: 70px;
 }
